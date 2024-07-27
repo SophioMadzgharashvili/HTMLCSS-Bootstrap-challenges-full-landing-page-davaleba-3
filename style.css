@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "lato";
+    src: url("Lato-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "nunito";
+    src: url("Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: "latoSemiBold";
+    src: url("Lato-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("Montserrat-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "poppins";
+    src: url("Poppins-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "notoSerif";
+    src: url("NotoSerif-Regular.ttf");
+}
+
+
+.lato600 {
+    font-family: "lato";
+    font-weight: 600;
+}
+
+.lato700 {
+    font-family: "lato";
+    font-weight: 700;
+}
+
+
+.nunito {
+    font-family: "nunito";
+}
+
+
+.montserrat {
+    font-family: "montserrat";
+}
+
+
+.iconImage {
+    width: 80%;
+}
+
+
+.bg-img {
+    background-image: url("Rectangle76.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+.bg-img1 {
+    background-image: url("rectangle 1.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bg-imageBit {
+    background-image: url("Bitcoin.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+.btn1 {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+.p01 {
+    font-size: 46px;
+    color: rgba(47, 102, 246, 1);
+}
+
+
+.poppins {
+    font-family: "poppins";
+}
+
+
+.p02 {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(47, 102, 246, 1);
+    font-family: "lato";
+}
+
+
+.notoSerif {
+    font-family: "notoSerif";
+}
+
+
+.p03 {
+    font-family: "poppins";
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+.btn2 {
+    width: 60%;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5); 
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+}
+
+.backgroundColor {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+
+.p04 {
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.p05 {
+    font-family: "nunito";
+    font-size: 24px;
+}
+
+
+.card-body1 {
+    background-color: rgba(252, 201, 138, 1);
+    border: 0.25px rgba(0, 0, 0, 1);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+}
+
+
+.h5h {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(205, 0, 0, 1);
+}
+
+
+.h6h {
+    font-weight: 600;
+    font-size: 52px;
+}
+
+
+.arrow {
+    align-items: center;
+}
+
+
+.border1 {
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.card-body2 {
+    background-color: rgba(154, 255, 176, 0.5);
+    border-radius: 0px;
+}
+
+.btnRegister {
+    background-color: rgba(1, 171, 108, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: "poppins";
+    font-size: 24px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+
+.cardBackground2 {
+    width: 100%;
+    height: 20%;
+    background-image: linear-gradient(to right, rgba(255, 234, 209, 1), rgba(245, 226, 201, 1));
+    font-family: "nunito";
+    font-size: 15px;
+    color: rgba(247, 147, 26, 1);
+}
+
+
+.cardBackground3 {
+    width: 63%;
+    height: 40%;
+    background-image: linear-gradient(to right, rgba(255, 234, 209, 1), rgba(245, 226, 201, 1));
+    font-family: "nunito";
+    font-size: 15px;
+    color: rgba(247, 147, 26, 1);
+}
+
+
+.cardBackground4 {
+    width: 30%;
+    height: 40%;
+    background-image: linear-gradient(to right, rgba(211, 241, 197, 1), rgba(208, 243, 202, 1));
+    font-family: "nunito";
+    font-size: 15px;
+    color: rgba(9, 140, 38, 1);
+   
+}
+
+
+
+.form-control {
+    border: 2px solid rgba(42, 39, 187, 1);
+    border-radius: 10px;
+}
+
+
+.form-control::placeholder {
+    font-family: "lato";
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+.iconImage1 {
+    width: 40px;
+    height: 40px;
+}
